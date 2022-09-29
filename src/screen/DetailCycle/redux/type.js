@@ -1,0 +1,2 @@
+export const AVAILABLE_CYCLE = 'AVAILABLE_CYCLE';
+export const DETAIL_RENTAL = 'DETAIL_RENTAL';

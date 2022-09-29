@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "616395785294",
+    "project_id": "cyclerent-5832d",
+    "storage_bucket": "cyclerent-5832d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616395785294:android:c4f291e10b25be7fa06f1f",
+        "android_client_info": {
+          "package_name": "com.cyclerent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616395785294-lrsjftd9ot5auhkpffvp7ilkc86ghi1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cyclerent",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "616395785294-2jecuoi6tb650neejpngevc89diovisl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1jGy6jQrD_ibz8jQ6wtVXu89T_e3uCZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616395785294-2jecuoi6tb650neejpngevc89diovisl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

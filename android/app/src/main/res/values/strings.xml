@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CycleRent</string>
+    <string name="facebook_app_id">583756896736655</string>
+    <string name="facebook_client_token">33edeaf14fa525a6807f2d7ee73fe66c</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">M4MTGjgQ7qVWIJ-kzXdbsYbSqIcJpx7mVVtcX</string>
+</resources>
