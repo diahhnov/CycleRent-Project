@@ -86,7 +86,7 @@ const DetailCycle = () => {
               />
               <ButtonFitur
                 ketFitur={'Max Speed'}
-                countItem={availableCycle.fitur[2] + ' KM/HOUR'}
+                countItem={availableCycle.fitur[1] + ' KM/HOUR'}
               />
               <ButtonFitur
                 ketFitur={'Year'}
