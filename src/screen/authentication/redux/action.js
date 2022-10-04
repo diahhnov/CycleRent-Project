@@ -85,6 +85,7 @@ export const postLogin = values => async dispatch => {
       validateStatus: status => status < 501,
     });
     dispatch(setLoad(true));
+    dispatch(setToken(reference.data.data.token));
     if (reference.data.data.user.isVerified === false) {
       Alert.alert(
         'Hold on!',
@@ -116,8 +117,9 @@ export const postLogin = values => async dispatch => {
     const resUserInfo = await axios.get(`${baseUrl}/users`, {
       headers: {Authorization: `${reference.data.data.token}`},
     });
-    dispatch(setToken(resUserInfo.config.headers.token));
+    dispatch(setToken(reference.data.data.token));
     dispatch(setLogin(reference.data.data.user));
+    console.log('Token:', resUserInfo.config.headers.Authorization);
     dispatch(setLoad(false));
   } catch (error) {
     error;

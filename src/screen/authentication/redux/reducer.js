@@ -6,7 +6,7 @@ const initialState = {
 };
 
 const initialToken = {
-  dataToken: null,
+  dataToken: '',
 };
 
 export const userReducer = (state = initialState, action) => {
